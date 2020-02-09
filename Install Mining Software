@@ -13,6 +13,5 @@ sudo ./configure --enable-bmsc
 
 sudo make
 
-
 Mining starten:
 screen ./cgminer --bmsc-options 115200:20 -o Pool -u User -p Passwort --bmsc-freq 0781 --api-allow W:0/0 --api-listen
